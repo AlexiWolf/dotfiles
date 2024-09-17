@@ -1,0 +1,10 @@
+# Storing scripts here requires whitelisting them.
+
+# Ignore all files by default.
+*
+!.gitignore
+
+# Script White-list
+
+## Dmenu scripts
+!dmenu_*
