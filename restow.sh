@@ -1,1 +1,1 @@
-stow --verbose --target=$HOME -R */
+scripts/restow.sh
