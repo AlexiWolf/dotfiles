@@ -7,8 +7,7 @@ set $TERMINAL alacritty
 
 ## UI
 
-exec_always --no-startup-id sh for file in $HOME/.local/autorun/*.sh; do sh "$file"; done
-exec_always --no-startup-id dunst
+exec_always --no-startup-id $HOME/.local/bin/autorun.sh
 
 # Minimal window borders
 default_border pixel 1
