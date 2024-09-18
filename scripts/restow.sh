@@ -1,1 +1,4 @@
-stow --verbose --target=$HOME/.config/ -R config/
+#! /usr/bin/sh
+
+./unstow.sh
+./stow.sh
