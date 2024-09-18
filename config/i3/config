@@ -7,12 +7,7 @@ set $TERMINAL alacritty
 
 ## UI
 
-exec_always --no-startup-id picom
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id killall udiskie ; udiskie -n -t
-exec_always --no-startup-id nm-applet
-exec_always --no-startup-id autorandr -c
-exec_always --no-startup-id dunst
+exec_always --no-startup-id $HOME/.local/bin/autorun.sh
 
 # Minimal window borders
 default_border pixel 1

@@ -1,1 +1,1 @@
-stow --verbose --target=$HOME -D */
+scripts/unstow.sh

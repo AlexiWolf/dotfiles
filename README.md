@@ -16,4 +16,8 @@ repo anywhere on your computer.
 
 ## License
 
-Everything in this repo is provided under the [Unlicense](LICENSE.txt).
+All files in this repo are released under the [Unlicense](LICENSE.txt), unless
+otherwise stated.
+
+All scripts (in the `scripts/` dir) are released under the 
+[MIT License](LICENSE-MIT.txt), unless otherwise stated.
