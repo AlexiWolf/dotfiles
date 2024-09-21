@@ -10,9 +10,8 @@ set $TERMINAL alacritty
 exec_always --no-startup-id $HOME/.local/bin/autorun.sh
 
 # Minimal window borders
-default_border pixel 1
-default_floating_border pixel 1
-hide_edge_borders smart
+default_border pixel 0
+default_floating_border pixel 0
 
 # Font 
 font pango:monospace 8
