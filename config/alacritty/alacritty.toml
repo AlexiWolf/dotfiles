@@ -1,1 +1,4 @@
 import = ["/home/alexi/.config/alacritty/duskfox.toml"]
+
+[window]
+    opacity = 0.90
