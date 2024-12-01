@@ -5,6 +5,9 @@ fish_add_path -aP ~/.cargo/bin
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
+export GPG_TTY=$(tty)
+gpg-connect-agent updatestartuptty /bye >/dev/null
+
 function ssh-auth --description "Authenticate SSH"
     eval $(ssh-agent -c) && ssh-add
 end
