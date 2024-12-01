@@ -1,1 +1,6 @@
+
+[window]
+    opacity = 0.90
+
+[general]
 import = ["/home/alexi/.config/alacritty/duskfox.toml"]
