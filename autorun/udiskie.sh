@@ -1,2 +1,2 @@
 killall -q udiskie
-udiskie -u -t & disown
+udiskie -n -t & disown
